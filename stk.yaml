@@ -1,0 +1,15 @@
+applied_templates:
+- inputs: {}
+  template_data_path: mind-dotnet-api-stack/dotnet-api-template
+- inputs: {}
+  template_data_path: mind-dotnet-api-stack/dotnet-errorhandler-plugin
+global_computed_inputs:
+  framework: net6.0
+  package: StackSpot.Template.Rest
+  project_type: Api
+  src_base_path: ''
+  version: stackspot.rest
+global_inputs:
+  project_name: MyApp
+stack: mind-dotnet-api-stack
+stack_type: app

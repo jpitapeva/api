@@ -1,0 +1,12 @@
+﻿global using System.Diagnostics.CodeAnalysis;
+global using System.Net;
+global using System.Reflection;
+global using AutoMapper;
+global using FluentValidation;
+global using MediatR;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;
+global using StackSpot.ErrorHandler;
+global using MyApp.Domain.Enums;
+global using MyApp.Domain.Models;
